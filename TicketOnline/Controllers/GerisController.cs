@@ -14,7 +14,9 @@ namespace TicketOnline.Controllers
         // GET: GerisController/Details/5
         public ActionResult Details(int id)
         {
+            int vat = 100;
             return View();
+            
         }
 
         // GET: GerisController/Create
